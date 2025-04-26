@@ -1,6 +1,8 @@
 ## Jeu de Taquin en Python
-Il s'agit pour ce TP de programmer un jeu de taquin (https://fr.wikipedia.org/wiki/Taquin)
+Il s'agit pour ce TP de programmer un jeu de taquin (https://fr.wikipedia.org/wiki/Taquin).
+
 Nous partons d'une image, que nous mettons en niveaux de gris, que nous rendons carrée (hauteur = largeur), dont la hauteur (et donc la largeur sera un multiple de 4, dont le carreau en bas à droite sera mis en noir (case vide), puis dont les carreaux seront mélangés.
+
 L'image est ensuite affichée. Le joueur donne alors une action, qui consiste à déplacer la case vide (c'est à dire, l'échanger avec une des cases adjacente), et ainsi de suite, tant que l'image d'origine n'est pas reconstituée.
 
 ### Evolutions possibles
